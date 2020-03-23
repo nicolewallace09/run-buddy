@@ -76,7 +76,7 @@
      padding: 60px;
   }
   
-  /*Hero Style Start */
+  /* HERO  */
   .hero {
      background-image: url(https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg);
      background-size: cover;
@@ -101,8 +101,6 @@
     font-size: 55px;
     color: #fce138;
   }
-
-  /*Hero Style End */
   
   .hero-form{
      border: solid 3px #024e76;
@@ -143,7 +141,6 @@
      padding: 10px 20px;
      font-size: 16px;
   }
-  /* HERO STYLES END */
 
   .intro p {
     line-height: 1.7;
@@ -175,6 +172,9 @@
   .secondary-border {
     border-color: #39a6b2;
   }
+
+
+/* STEPS SECTION */ 
   
   .step h3 {
     color: #024e76;
@@ -224,6 +224,8 @@
   max-width: 100%;
 }
 
+/* TRAINERS SECTION */
+
 .trainers {
   width: 100%;
   margin: 0 auto;
@@ -262,7 +264,21 @@
   font-size: 17px;
 }
 
-/* REACH OUT STYLES START */
+/* SERVICE PLANS SECTION */
+
+.service-grid-container {
+  display: grid;
+}
+
+.service-grid-item {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  border: solid;
+  color: black;
+}
+
+/* REACH OUT SECTION */
 
 .contact-info {
   display: flex;
@@ -327,8 +343,6 @@
 .contact-info a {
   color: #fce138;
 }
-
-/* REACH OUT STYLES END */
 
 .text-left {
   text-align: left;
